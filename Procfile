@@ -1,0 +1,1 @@
+web: gunicorn livraria_1.wsgi

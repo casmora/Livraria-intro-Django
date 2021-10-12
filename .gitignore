@@ -1,0 +1,168 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/django,visualstudiocode
+# Edite em https://www.toptal.com/developers/gitignore?templates=django,visualstudiocode
+
+### Django ###
+*.registro
+*.Panela
+* .pyc
+__pycache __ /
+local_settings.py
+#db.sqlite3
+#db.sqlite3-journal
+meios de comunicação
+
+# Se o seu processo de construção inclui a execução de collectstatic, então você provavelmente não precisa ou deseja incluir staticfiles /
+# em seu repositório Git. Atualize e descomente a seguinte linha de acordo.
+# <django-project-name> / staticfiles /
+
+### Django.Python Stack ###
+# Arquivos compilados por byte / otimizados / DLL
+* .py [cod]
+* $ py.class
+
+# Extensões C
+*.tão
+
+# Distribuição / embalagem
+.Pitão
+construir/
+ovos de desenvolvimento /
+dist /
+Transferências/
+ovos/
+.ovos/
+lib /
+lib64 /
+partes /
+sdist /
+var /
+rodas /
+compartilhar / rodas-python /
+* .egg-info /
+.installed.cfg
+*.ovo
+MANIFESTO
+
+# PyInstaller
+# Normalmente, esses arquivos são escritos por um script Python a partir de um modelo
+# antes de PyInstaller construir o exe, para injetar data / outras informações nele.
+*.manifesto
+* .spec
+
+# Registros do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Relatório de teste / cobertura de unidade
+htmlcov /
+.tox /
+.nox /
+.cobertura
+.cobertura.*
+.cache
+nosetests.xml
+cobertura.xml
+*.cobrir
+* .py, capa
+.hipótese/
+.pytest_cache /
+cobrir/
+
+# Traduções
+* .mo
+
+# Coisas do Django:
+
+# Material do frasco:
+instância/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Documentação Sphinx
+docs / _build /
+
+# PyBuilder
+.pybuilder /
+alvo/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default /
+ipython_config.py
+
+# pyenv
+# Para uma biblioteca ou pacote, você pode querer ignorar esses arquivos, pois o código é
+# destina-se a ser executado em vários ambientes; caso contrário, faça o check-in:
+# .python-version
+
+# pipenv
+# De acordo com pypa / pipenv # 598, é recomendado incluir Pipfile.lock no controle de versão.
+# No entanto, em caso de colaboração, se houver dependências ou dependências específicas da plataforma
+# sem suporte multiplataforma, o pipenv pode instalar dependências que não funcionam ou não
+# instale todas as dependências necessárias.
+# Pipfile.lock
+
+# PEP 582; usado por exemplo github.com/David-OConnor/pyflow
+__pypackages __ /
+
+# Coisas de aipo
+celerybeat-cronograma
+celerybeat.pid
+
+# SageMath arquivos analisados
+* .sage.py
+
+# Ambientes
+.env
+.venv
+env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+
+# Configurações do projeto Spyder
+.spyderproject
+.spyproject
+
+# Configurações do projeto de corda
+.ropeproject
+
+# documentação mkdocs
+/local
+
+# mypy
+.mypy_cache /
+.dmypy.json
+dmypy.json
+
+# Verificador de tipo de pira
+.pyre /
+
+# pytype analisador de tipo estático
+.pytype /
+
+# Símbolos de depuração do Cython
+cython_debug /
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+* .code-workspace
+
+# História local para código do Visual Studio
+.história/
+
+### VisualStudioCode Patch ###
+# Ignorar todo o histórico local de arquivos
+.história
+.ionida
+
+# Fim de https://www.toptal.com/developers/gitignore/api/django,visualstudiocode

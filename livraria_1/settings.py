@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-cbr&h+qs=ko(sa)_!_l*60&3j_sa_4(r%xbh(sj(dpa_t9hpsh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ '*',
+   'http://livraria-intro-django.herokuapp.com/',
+   'https://livraria-intro-django.herokuapp.com/',
+   'livraria-intro-django.herokuapp.com',
+   'livraria-intro-django.herokuapp.com/',
+   '127.0.0.1',]
 
 
 # Application definition

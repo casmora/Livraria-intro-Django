@@ -1,168 +1,187 @@
-# Criado por https://www.toptal.com/developers/gitignore/api/django,visualstudiocode
-# Edite em https://www.toptal.com/developers/gitignore?templates=django,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/django,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=django,visualstudiocode
 
 ### Django ###
-*.registro
-*.Panela
-* .pyc
-__pycache __ /
+*.log
+*.pot
+*.pyc
+__pycache__/
 local_settings.py
-#db.sqlite3
-#db.sqlite3-journal
-meios de comunicação
+db.sqlite3
+db.sqlite3-journal
+media
 
-# Se o seu processo de construção inclui a execução de collectstatic, então você provavelmente não precisa ou deseja incluir staticfiles /
-# em seu repositório Git. Atualize e descomente a seguinte linha de acordo.
-# <django-project-name> / staticfiles /
+# If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
+# in your Git repository. Update and uncomment the following line accordingly.
+# <django-project-name>/staticfiles/
 
 ### Django.Python Stack ###
-# Arquivos compilados por byte / otimizados / DLL
-* .py [cod]
-* $ py.class
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
 
-# Extensões C
-*.tão
+# C extensions
+*.so
 
-# Distribuição / embalagem
-.Pitão
-construir/
-ovos de desenvolvimento /
-dist /
-Transferências/
-ovos/
-.ovos/
-lib /
-lib64 /
-partes /
-sdist /
-var /
-rodas /
-compartilhar / rodas-python /
-* .egg-info /
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
 .installed.cfg
-*.ovo
-MANIFESTO
+*.egg
+MANIFEST
 
 # PyInstaller
-# Normalmente, esses arquivos são escritos por um script Python a partir de um modelo
-# antes de PyInstaller construir o exe, para injetar data / outras informações nele.
-*.manifesto
-* .spec
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# Registros do instalador
+# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Relatório de teste / cobertura de unidade
-htmlcov /
-.tox /
-.nox /
-.cobertura
-.cobertura.*
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
 .cache
 nosetests.xml
-cobertura.xml
-*.cobrir
-* .py, capa
-.hipótese/
-.pytest_cache /
-cobrir/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
 
-# Traduções
-* .mo
+# Translations
+*.mo
 
-# Coisas do Django:
+# Django stuff:
 
-# Material do frasco:
-instância/
+# Flask stuff:
+instance/
 .webassets-cache
 
 # Scrapy stuff:
 .scrapy
 
-# Documentação Sphinx
-docs / _build /
+# Sphinx documentation
+docs/_build/
 
 # PyBuilder
-.pybuilder /
-alvo/
+.pybuilder/
+target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
 # IPython
-profile_default /
+profile_default/
 ipython_config.py
 
 # pyenv
-# Para uma biblioteca ou pacote, você pode querer ignorar esses arquivos, pois o código é
-# destina-se a ser executado em vários ambientes; caso contrário, faça o check-in:
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
 # .python-version
 
 # pipenv
-# De acordo com pypa / pipenv # 598, é recomendado incluir Pipfile.lock no controle de versão.
-# No entanto, em caso de colaboração, se houver dependências ou dependências específicas da plataforma
-# sem suporte multiplataforma, o pipenv pode instalar dependências que não funcionam ou não
-# instale todas as dependências necessárias.
-# Pipfile.lock
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
 
-# PEP 582; usado por exemplo github.com/David-OConnor/pyflow
-__pypackages __ /
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
 
-# Coisas de aipo
-celerybeat-cronograma
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
 celerybeat.pid
 
-# SageMath arquivos analisados
-* .sage.py
+# SageMath parsed files
+*.sage.py
 
-# Ambientes
+# Environments
 .env
 .venv
-env /
-venv /
-ENV /
-env.bak /
-venv.bak /
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Configurações do projeto Spyder
+# Spyder project settings
 .spyderproject
 .spyproject
 
-# Configurações do projeto de corda
+# Rope project settings
 .ropeproject
 
-# documentação mkdocs
-/local
+# mkdocs documentation
+/site
 
 # mypy
-.mypy_cache /
+.mypy_cache/
 .dmypy.json
 dmypy.json
 
-# Verificador de tipo de pira
-.pyre /
+# Pyre type checker
+.pyre/
 
-# pytype analisador de tipo estático
-.pytype /
+# pytype static type analyzer
+.pytype/
 
-# Símbolos de depuração do Cython
-cython_debug /
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintainted in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
 
 ### VisualStudioCode ###
-.vscode / *
-! .vscode / settings.json
-! .vscode / tasks.json
-! .vscode / launch.json
-! .vscode / extensions.json
-* .code-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# História local para código do Visual Studio
-.história/
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
 
 ### VisualStudioCode Patch ###
-# Ignorar todo o histórico local de arquivos
-.história
-.ionida
+# Ignore all local history of files
+.history
+.ionide
 
-# Fim de https://www.toptal.com/developers/gitignore/api/django,visualstudiocode
+# Support for Project snippet scope
+
+# End of https://www.toptal.com/developers/gitignore/api/django,visualstudiocode

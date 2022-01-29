@@ -12,6 +12,8 @@ whitenoise = "^5.3.0"
 djangorestframework = "^3.12.4"
 flake8 = "^4.0.1"
 djangorestframework-simplejwt = "^5.0.0"
+drf-spectacular = "^0.21.1"
+django-cors-headers = "^3.11.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
